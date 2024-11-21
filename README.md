@@ -1,4 +1,4 @@
-# 32Bit_ALU Simulation
+# EXP2: 32Bit_ALU Simulation
 
 # Aim: 
 
@@ -59,6 +59,7 @@ source /cadence/install/cshrc (mention the path of the tools)
 (The path of cshrc could vary depending on the installation destination)
       
 After this you can see the window like below 
+![Screenshot (148)](https://github.com/user-attachments/assets/33389ee2-1616-4eaa-973a-31a0862b838d)
 
 ### Fig 2: Invoke the Cadence Environment
 
@@ -73,12 +74,15 @@ or
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
+![Screenshot (149)](https://github.com/user-attachments/assets/bb0a2348-b626-4827-bf8b-65306febf379)
 ### Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
 
+
+![Screenshot (150)](https://github.com/user-attachments/assets/13c05a1d-7726-4963-96ec-5437bf39e6ab)
 ### Fig 4:cds.lib file Creation
 
 Save cds.lib file and select the correct option for cds.lib file format based on the HDL Language and Libraries used. 
@@ -88,8 +92,7 @@ Select “Don’t include any libraries (verilog design)” from “New cds.lib 
 We are simulating verilog design without using any libraries 
 
 A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
-
-![image](https://github.com/user-attachments/assets/d5202b97-ee5c-4e0e-9eaf-5f3fa733e546)
+![Screenshot (151)](https://github.com/user-attachments/assets/3ee1ef4b-f10d-4883-a659-9f461657aa4c)
 
 ### Fig 5: Selection of Don’t include any libraries
 
@@ -124,6 +127,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+![Screenshot (152)](https://github.com/user-attachments/assets/525f7c9b-deac-47d7-9ab1-7f80e6f59bbb)
 
 ### Fig 7: Compiled database in worklib
 
@@ -173,34 +177,11 @@ Simulation allow to dump design and test bench signals into a waveform
 
 Steps for simulation – Run the simulation command with simulator options
 
+![Screenshot (153)](https://github.com/user-attachments/assets/7fe61f22-bf7a-407c-88a5-7f3744afec77)
 ## Fig 9: Design Browser window for simulation
-
+![Screenshot (154)](https://github.com/user-attachments/assets/d323a505-7612-4002-9e2a-98692072a4d9)
 ## Fig 10:Simulation Waveform Window
-
-## Fig 11:Simulation Waveform Window
-
+![Screenshot (155)](https://github.com/user-attachments/assets/beff7836-3fd5-4e8b-aae1-092d7510d1fb)
 ### Result
 
 The functionality of a 32-bit ALU was successfully verified using a test bench and simulated with the nclaunch tool.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-
-
-
-
-
-
